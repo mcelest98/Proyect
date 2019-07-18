@@ -1,0 +1,109 @@
+<footer id="footer" class="page-footer unique-color-dark mt-4">
+    <div class="info-color-dark text-center py-4">
+        <!--Newsletter-->
+        <a id="footer-link-newsletter" href="/docs/jquery/newsletter/" class="border rounded p-2 px-3 mr-4 d-none d-md-inline-block">Newsletter
+            <i class="fas fa-envelope white-text ml-2"> </i>
+        </a>
+        <!--Contact-->
+        <a id="footer-link-contact" href="/contact" data-toggle="modal" data-target="#contactForm" class="border rounded p-2 px-3 mr-4 d-none d-md-inline-block">Contact
+            <i class="fas fa-envelope white-text ml-2"> </i>
+        </a>
+        <!--GitHub-->
+        <a rel="nofollow" target="_blank" id="footer-link-github" href="https://github.com/mdbootstrap/bootstrap-material-design">
+            <i class="fab fa-github white-text mr-4"> </i>
+        </a>
+        <!--Youtube-->
+        <a rel="nofollow" target="_blank" id="footer-link-youtube" href="https://www.youtube.com/watch?v=cXTThxoywNQ">
+            <i class="fab fa-youtube white-text mr-4"> </i>
+        </a>
+        <!--Facebook-->
+        <a rel="nofollow" target="_blank" id="footer-link-facebook" href="https://www.facebook.com/mdbootstrap">
+            <i class="fab fa-facebook-f white-text mr-4"> </i>
+        </a>
+        <!--Twitter-->
+        <a rel="nofollow" target="_blank" id="footer-link-twitter" href="https://twitter.com/MDBootstrap">
+            <i class="fab fa-twitter white-text"> </i>
+        </a>
+    </div>
+    <!--Footer Links-->
+    <div class="container text-center text-md-left mt-5">
+        <div class="row mt-3">
+            <!--First column-->
+            <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
+                <h6 class="text-uppercase font-weight-bold">
+                    <strong>Team Members</strong>
+                </h6>
+                <hr class="info-color mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                <p>
+                    Katerine Pineda
+                </p>
+                <p>
+                    María Celeste
+                </p>
+                <p>
+                    Néstor Oliva
+                </p>
+                <p>
+                    Jonathan Andino
+                </p>
+            </div>
+            <!--/.First column-->
+            <!--Second column-->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <h6 class="text-uppercase font-weight-bold">
+                    <strong>Categories</strong>
+                </h6>
+                <hr class="info-color mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                <ul class="list-unstyled mb-0">
+                    {{#each categories}}
+                        <li>
+                            <p href="#">{{title}}</p>
+                        </li>
+                    {{/each}}
+
+                </ul>
+            </div>
+            <!--/.Second column-->
+            <!--Third column-->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <h6 class="text-uppercase font-weight-bold">
+                    <strong>Programs</strong>
+                </h6>
+                <hr class="info-color mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                <p>
+                    <a id="footer-link-tutBootstrap" href="/education/">Node.js</a>
+                </p>
+                <p>
+                    <a id="footer-link-tutBootstrap" href="/education/bootstrap/">Bootstrap &amp; web design</a>
+                </p>
+                <p>
+                    <a id="footer-link-tutAngular" href="/education/angular/">MongoDB</a>
+                </p>
+            </div>
+            <!--/.Third column-->
+            <!--Fourth column-->
+            <div class="col-md-4 col-lg-3 col-xl-3">
+                <h6 class="text-uppercase font-weight-bold">
+                    <strong>Company</strong>
+                </h6>
+                <hr class="info-color mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                <p>
+                    <i class="fas fa-envelope mr-3"></i> contact@campuspsp.com</p>
+                <!-- <p>
+                      <i class="fas fa-building mr-3"></i> Our story</p> -->
+                <p>
+                    <a id="footer-link-team" href="/general/our-team/">
+                        <i class="fas fa-users mr-3"></i> Our team</a>
+                </p>
+            </div>
+            <!--/.Fourth column-->
+        </div>
+    </div>
+    <!--/.Footer Links-->
+    <!-- Copyright-->
+    <div class="footer-copyright py-3 text-center">
+        © 2019 Copyright - Negocios Web Campus San Pedro y San Pablo
+        </a>
+    </div>
+    <!--/.Copyright -->
+</footer>
